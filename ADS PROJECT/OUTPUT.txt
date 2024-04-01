@@ -1,0 +1,79 @@
+Book 5 borrowed by Patron 101
+Book 3 borrowed by Patron 101
+Book 12 is deleted from the library.
+BookID = 3
+Title = The Great Gatsby
+Author = Mark Johnson
+Availability = No
+BorrowedBy = 101
+Reservations = []
+BookID = 5
+Title = The Secret Garden
+Author = Jane Smith
+Availability = No
+BorrowedBy = 101
+Reservations = []
+Book 3 is deleted from the library.
+Book 5 is deleted from the library.
+Book 5 not found in the Library
+Book 22 borrowed by Patron 104
+Book 22 reserved by Patron 171
+Book 22 reserved by Patron 103
+Book 94 borrowed by Patron 171
+Book 22 returned by Patron 104
+Book 22 allotted to Patron 171
+Book 50 borrowed by Patron 132
+Book 10 borrowed by Patron 103
+Book 72 borrowed by Patron 109
+Book 50 reserved by Patron 101
+Book 94 is deleted from the library.
+Book 22 reserved by Patron 105
+BookID = 10
+Title = The Hobbit
+Author = J.R.R. Tolkien
+Availability = No
+BorrowedBy = 103
+Reservations = []
+BookID = 22
+Title = The Alchemist
+Author = Paul Coelho
+Availability = No
+BorrowedBy = 171
+Reservations = [105, 103]
+BookID = 28
+Title = Lord of the Flies
+Author = William Golding
+Availability = Yes
+BorrowedBy = None
+Reservations = []
+BookID = 50
+Title = The Catcher in the Rye
+Author = Michael Brown
+Availability = No
+BorrowedBy = 132
+Reservations = [101]
+BookID = 72
+Title = Brave New World
+Author = Aldous Huxley
+Availability = No
+BorrowedBy = 109
+Reservations = []
+BookID = 28
+Title = Lord of the Flies
+Author = William Golding
+Availability = Yes
+BorrowedBy = None
+Reservations = []
+Book 22 returned by Patron 171
+Book 22 allotted to Patron 105
+Book 28 borrowed by Patron 171
+Notifying Patron 101: The book 50 is no longer available
+Book 50 is deleted from the library. Reservations made by Patrons 101 have been cancelled!
+Book 22 reserved by Patron 107
+Book 10 returned by Patron 103
+Book 10 borrowed by Patron 121
+Book 10 is deleted from the library.
+Notifying Patron 103: The book 22 is no longer available
+Notifying Patron 107: The book 22 is no longer available
+Book 22 is deleted from the library. Reservations made by Patrons 103, 107 have been cancelled!
+Program Terminated
